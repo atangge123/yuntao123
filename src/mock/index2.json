@@ -1,0 +1,24 @@
+{
+	"res_code":1,
+	"res_error":"",
+	"res_body":{
+			"list":[
+				{"imgb":"/yuntao/src/images/b1.jpg"},
+				{"imgb":"/yuntao/src/images/b2.jpg"},
+				{"imgb":"/yuntao/src/images/b3.png"},
+				{"imgb":"/yuntao/src/images/b4.png"},
+				{"imgb":"/yuntao/src/images/b5.jpg"},
+				{"imgb":"/yuntao/src/images/b6.jpg"},
+				{"imgb":"/yuntao/src/images/b7.jpg"},
+				{"imgb":"/yuntao/src/images/b8.png"},
+				{"imgb":"/yuntao/src/images/b9.jpg"},
+				{"imgb":"/yuntao/src/images/b10.png"},
+				{"imgb":"/yuntao/src/images/b11.png"},
+				{"imgb":"/yuntao/src/images/b12.png"},
+				{"imgb":"/yuntao/src/images/b13.jpg"},
+				{"imgb":"/yuntao/src/images/b14.png"},
+				{"imgb":"/yuntao/src/images/b15.png"},
+				{"imgb":"/yuntao/src/images/b16.jpg"}
+			]
+	}
+}

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" href="/yuntao/dist/css/index.css">
+</head>
+<body>
+	<div class="header"></div>
+		
+		
+		<!--//轮播图-->
+		<div class="sowingmap"><h1>轮播图</h1></div>
+		
+		
+		
+		<div class="goods1">
+			<div class="goods1_img_left opacity_img">
+				<img src="images/s1.jpg">
+			</div>
+			<ul class="goods1_img_center">
+				
+			</ul>
+			<div class="goods1_img_right opacity_img">
+				<img src="images/s2.jpg">
+			</div>
+		</div>
+		<script type="text/html" id="list_template">
+			{{each list prop}}
+				<li class="goods1_img opacity_img">
+					<a href="#">
+						<img src="{{prop.img}}">
+					</a>
+				</li>
+			{{/each}}
+		</script>
+		
+		
+		<div class="brand_street">
+			<h3>品牌推荐</h3>
+			<ul class="brand_street_goods">
+				<script type="text/html" id="street_template">
+					{{each list prop}}
+						<li class="brand_street_img opacity_img1">
+							<a href="#">
+								<img src="{{prop.imgb}}">
+							</a>
+						</li>
+					{{/each}}
+				</script>
+			</ul>
+		</div>
+		
+		<div class="product_content">
+			<h3>食品</h3>
+			<div class="product_lists">
+				<div class="product_lists_left opacity_img">
+					<img src="images/p1.jpg">
+				</div>
+				
+				<ul class="product_content_list"></ul>
+					<script type="text/html" id="product_template">
+						{{each list prop}}
+						
+							<li class="product_content_img opacity_img2">
+								<div class="sclect">
+									<a href="#"><img src="{{prop.imgb}}"></a>
+								</div>
+								
+								<a href="#"><span>{{prop.title}}</span></a></br>
+									<span>￥{{prop.price}}</span>
+								
+							</li>
+						{{/each}}
+					</script>
+				
+				
+			</div>
+		</div>
+		
+		
+		
+		<div class="product_content1">
+			<h3>白酒</h3>
+			<div class="product_lists1">
+				<div class="product_lists_left1 opacity_img">
+					<img src="images/p10.jpg">
+				</div>
+				
+				<ul class="product_content_list1"></ul>
+					<script type="text/html" id="product_template1">
+						{{each list prop}}
+						
+							<li class="product_content_img1 opacity_img2">
+								<div class="sclect1">
+									<a href="#"><img src="{{prop.imgb}}"></a>
+								</div>
+								
+								<a href="#"><span>{{prop.title}}</span></a></br>
+									<span>￥{{prop.price}}</span>
+								
+							</li>
+						{{/each}}
+					</script>
+				
+				
+			</div>
+		</div>
+		
+		
+		
+		<div class="product_content2">
+			<h3>茗茶</h3>
+			<div class="product_lists2">
+				<div class="product_lists_left2 opacity_img">
+					<img src="images/p19.jpg">
+				</div>
+				
+				<ul class="product_content_list2"></ul>
+					<script type="text/html" id="product_template2">
+						{{each list prop}}
+						
+							<li class="product_content_img2 opacity_img2">
+								<div class="sclect2">
+									<a href="#"><img src="{{prop.imgb}}"></a>
+								</div>
+								
+								<a href="#"><span>{{prop.title}}</span></a></br>
+									<span>￥{{prop.price}}</span>
+								
+							</li>
+						{{/each}}
+					</script>
+			</div>
+		</div>
+		
+		<div class="gouwu_right"></div>
+		
+		
+		<!--http://www.hyuntao.com/index.htm-->
+	<div class="footer"></div>
+	<script src="lib/require/require.js" data-main ="js/index"></script>
+</body>
+</html>

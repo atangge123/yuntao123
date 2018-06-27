@@ -1,0 +1,17 @@
+{
+	"res_code":1,
+	"res_error":"",
+	"res_body":{
+			"list":
+				[
+				 {"imgb":"/yuntao/src/images/p2.jpg","title":"巴山土猪 有机幸福套餐 ","price":"688.00"},
+				 {"imgb":"/yuntao/src/images/p3.jpg","title":"巴山土猪 有机幸福套餐 ","price":"888.00"},
+				 {"imgb":"/yuntao/src/images/p4.jpg","title":"巴山土猪 有机全家福套餐 ","price":"138.00"},
+				 {"imgb":"/yuntao/src/images/p5.jpg","title":"巴山土猪 有机御享礼盒 1550g","price":"698.00"},
+				 {"imgb":"/yuntao/src/images/p6.jpg","title":"巴山土猪 有机月牙骨 1对 约0.1kg ","price":"86.00"},
+				 {"imgb":"/yuntao/src/images/p7.jpg","title":"巴山土猪 有机猪蹄 1对 约0.65kg ","price":"81.00"},
+				 {"imgb":"/yuntao/src/images/p8.jpg","title":"巴山土猪 有机猪心 1个 约0.25kg ","price":"48.00"},
+				 {"imgb":"/yuntao/src/images/p9.jpg","title":"巴山土猪 有机尊享礼盒","price":"198.00"}
+				]
+	}
+}

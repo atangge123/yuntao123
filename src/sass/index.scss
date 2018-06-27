@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.goods1{
+    width: 1150px;
+    height: 254px;
+   overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    .goods1_img_left{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .goods1_img_right{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .goods1_img_center{
+        position: absolute;
+        width: 589px;
+        height: 254px;
+        left: 280px;
+        top: 0;
+        .goods1_img{
+            border: 1px solid gainsboro;
+            list-style: none;
+            float: left;
+            transition: all .5s;
+            &:hover{
+                box-shadow: 0px 0px 10px black inset;
+            }
+            &:hover img{
+                transform: scale(0.9);
+            }
+            img{
+                width: 194px;
+                height: 121px;
+                transition: all .5s;
+            }
+        }
+    }
+}
+.brand_street{
+    width: 1150px;
+    height: 202px;
+    margin: 0 auto;
+    
+    h3{
+        margin-top:20px;
+    }
+    .brand_street_goods{
+        margin-top: 25px;
+        width: 1150px;
+        height: 150px;
+       
+        list-style: none;
+        .brand_street_img{
+            float: left;
+            border: 1px solid gainsboro;
+            img{
+                width: 141px;
+                height: 70px;
+            }
+        }
+    }
+}
+
+//食品楼层图
+.product_content{
+    width: 1150px;
+    height: 500px;
+    margin: 0 auto;
+//  border: 1px solid red;
+    h3{
+        margin-top:20px;
+    }
+   .product_lists{
+       width: 1150px;
+       height: 433px;
+//     border: 1px solid green;
+       position: relative;
+       margin-top: 20px;
+       .product_lists_left{
+           
+           width: 300px;
+           height: 433px;
+           img{
+               width: 300px;
+               height: 433px;
+           }
+       }
+       .product_content_list{
+           position: absolute;
+           top: 0px;
+           left: 300px;
+           
+           list-style: none;
+           .product_content_img{
+               float: left;
+               width: 210px;
+               height: 215px;
+                white-space:nowrap;
+               overflow: hidden;
+//             border:1px solid red;
+               .sclect{
+                   width: 208px;
+                   height: 173px;
+//                 border: 1px solid black;
+                   overflow: hidden;
+                   
+                   
+               }
+               img{
+                width: 208px;
+                height: 173px;
+                transition: all 0.5s;
+                &:hover{
+                       transform:scale(1.1,1.1);
+                   }
+               }
+               a{
+                   text-decoration: none;
+                   font-size: 13px;
+                   color: black;
+                    &:hover{
+                       color: red;
+                   }
+               }
+           }
+       }
+   }
+}
+
+
+
+
+//酒楼层图
+.product_content1{
+    width: 1150px;
+    height: 500px;
+    margin: 0 auto;
+//  border: 1px solid red;
+    h3{
+        margin-top:20px;
+    }
+   .product_lists1{
+       width: 1150px;
+       height: 433px;
+//     border: 1px solid green;
+       position: relative;
+       margin-top: 20px;
+       .product_lists_left1{
+           
+           width: 300px;
+           height: 433px;
+           img{
+               width: 300px;
+               height: 433px;
+           }
+       }
+       .product_content_list1{
+           position: absolute;
+           top: 0px;
+           left: 300px;
+           
+           list-style: none;
+           .product_content_img1{
+               float: left;
+               width: 210px;
+               height: 215px;
+               white-space:nowrap;
+               overflow: hidden;
+//             border:1px solid red;
+               .sclect1{
+                   width: 208px;
+                   height: 173px;
+//                 border: 1px solid black;
+                   overflow: hidden;
+                   
+                   
+               }
+               img{
+                width: 208px;
+                height: 173px;
+                transition: all 0.5s;
+                &:hover{
+                       transform:scale(1.1,1.1);
+                   }
+               }
+               a{
+                   text-decoration: none;
+                   font-size: 13px;
+                   color: black;
+                    &:hover{
+                       color: red;
+                   }
+               }
+           }
+       }
+   }
+}
+//茗茶楼层图
+.product_content2{
+    width: 1150px;
+    height: 500px;
+    margin: 0 auto;
+//  border: 1px solid red;
+    h3{
+        margin-top:20px;
+    }
+   .product_lists2{
+       width: 1150px;
+       height: 433px;
+//     border: 1px solid green;
+       position: relative;
+       margin-top: 20px;
+       .product_lists_left2{
+           
+           width: 300px;
+           height: 433px;
+           img{
+               width: 300px;
+               height: 433px;
+           }
+       }
+       .product_content_list2{
+           position: absolute;
+           top: 0px;
+           left: 300px;
+           
+           list-style: none;
+           .product_content_img2{
+               float: left;
+               width: 212px;
+               height: 215px;
+               white-space:nowrap;
+               overflow: hidden;
+//             border:1px solid red;
+               .sclect2{
+                   width: 208px;
+                   height: 173px;
+//                 border: 1px solid black;
+                   overflow: hidden;
+               }
+               img{
+                width: 208px;
+                height: 173px;
+                transition: all 0.5s;
+                &:hover{
+                       transform:scale(1.1,1.1);
+                   }
+               }
+               a{
+                   text-decoration: none;
+                   font-size: 12px;
+                   color: black;
+                    &:hover{
+                       color: red;
+                   }
+               }
+           }
+       }
+   }
+}
+

@@ -1,0 +1,18 @@
+{
+	"res_code":1,
+	"res_error":"",
+	"res_body":{
+			"list":
+				[
+				 {"imgb":"/yuntao/src/images/p20.jpg","title":"康定30度天蓝青稞茶礼盒装 论茶","price":"180.00"},
+				 {"imgb":"/yuntao/src/images/p21.jpg","title":"康定30度天蓝青稞茶礼盒装 叶问","price":"120.00"},
+				 {"imgb":"/yuntao/src/images/p22.jpg","title":"康定30度天蓝青稞茶礼盒装 纯手工 铁盒","price":"65.00"},
+				 {"imgb":"/yuntao/src/images/p23.jpg","title":"康定30度天蓝青稞茶礼盒装 如意呈祥","price":"95.00"},
+				 {"imgb":"/yuntao/src/images/p24.jpg","title":"米仓山雀舌 绿茶  有机茶 珍品 礼盒装180g  栗香型 ","price":"1580.00"},
+				 {"imgb":"/yuntao/src/images/p25.jpg","title":"米仓山雀舌  绿茶  有机茶  特级茶 礼盒装180g  栗香型   ","price":"880.00"},
+				 {"imgb":"/yuntao/src/images/p26.jpg","title":"米仓山子竹 绿茶  有机茶 特级茶  精装120g  一芽一叶 ","price":"1280.00"},
+				 {"imgb":"/yuntao/src/images/p27.jpg","title":"米仓山红茶  一级茶 简装60克 糖香型   ","price":"16.00"}
+				 ]
+
+	}
+}

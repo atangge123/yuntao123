@@ -1,0 +1,10 @@
+require(["config"],function(){
+	require(["jquery","template","cookie","fly","load"],function($,template){
+		$(window).load(function(){
+			$(".bigbox").click(function(){
+				console.log(123456);
+			});
+			console.log(12346);
+		});
+	});
+});

@@ -1,0 +1,22 @@
+require.config({
+	paths:{
+		jquery:"/yuntao/src/lib/jquery/jquery-1.12.4.min",
+		lunbotu:"/yuntao/src/lib/jquery-plugins/xm_carousel/jquery.xm_carousel",
+		template:"/yuntao/src/lib/artTemplate/template-web",
+		load:"/yuntao/src/js/loadHeaderandFooter",
+		fly:"/yuntao/src/lib/jquery-plugins/jquery.fly.min",
+		cookie:"/yuntao/src/lib/jquery-plugins/jquery.cookie"
+	},
+	shim:{
+		lunbotu:{
+			deps:["jquery"]
+		},
+		fly:{
+			deps:["jquery"]
+		},
+		cookie:{
+			deps:["jquery"]
+		}
+	}
+	
+});

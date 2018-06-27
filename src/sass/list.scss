@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.content_zone_two{
+    width: 1150px;
+    height: 560px;
+    position: relative;
+    
+    margin: 0 auto;
+    .title_list{
+        margin-top: 15px;
+        a{
+           text-decoration: none;
+           font-size: 15px;
+           color: black;
+           &:nth-child(1){
+               font-size: 20px;
+               font-weight: 999;
+           }
+           &:hover{
+               color:red;
+           }
+        }
+        
+    }
+    .rouleifd{
+        width: 400px;
+        height: 400px;
+       
+        position: relative;
+        .len{
+            width:200px;
+            height: 200px;
+            background: black;
+            position: absolute;
+            opacity:0.5;
+            top: 0px;
+            left: 0px;
+            display:none;
+            
+        }
+    }
+    
+    .rou_list{
+        .relist{
+            width:80px;
+            height:80px;
+            border:1px solid white;
+            &:hover{
+                 border:1px solid red;
+            }
+        }
+        .imgcurr{
+            border: 1px solid gold;
+        }
+    }
+    
+     .rouleifd1{
+        width: 400px;
+        height: 400px;
+        
+        overflow: hidden;
+        position:absolute;
+        top: 28px;
+        left: 402px;
+        z-index: 99;
+        display:none;
+        img{
+            position: absolute;
+        }
+    }
+    
+    .intro_con_middle{
+        width: 400px;
+        height: 400px;
+        
+        overflow: hidden;
+        position:absolute;
+        top: 28px;
+        left: 422px;
+        
+        div{
+            margin-top: 33px;
+            margin-left:10px;
+            &:nth-child(1){
+                margin-top: 0px;
+            }
+        }
+        .intro_con_name{
+             
+        }
+        .intro_con_price{
+            
+        }
+        .intro_con_main{
+            font-size: 12px;
+             
+             span{
+                 text-align: center;
+                 display:inline-block;
+                 border: 1px solid black;
+                 width: 15px;
+                 height: 15px;
+                 cursor: pointer;
+             }
+             .godamout{
+                 width: 50px;
+                 height: 40px;
+                 text-align: center;
+                 outline: none;
+             }
+        }
+        .cartbtn{
+            .lijigm{
+                width: 100px;
+                height: 50px;
+                background: orangered;
+                border: none;
+                border-radius: 10px;
+                outline: none;
+                cursor: pointer;
+            }
+            .jiarucart{
+                width: 100px;
+                height: 50px;
+                background: red;
+                border: none;
+                border-radius: 10px;
+                margin-left: 15px;
+                outline: none;
+                cursor: pointer;
+                &:hover{
+                    background: darkred;
+                }
+            }
+            
+            p{
+                margin-top: 10px;
+            }
+        }
+        .addsuccess{
+            width: 250px;
+            height: 100px;
+            position: absolute;
+            background: wheat;
+            top: 200px;
+            display: none;
+           .ppx{
+               margin: 0;
+               padding: 0;
+               width: 250px;
+               height: 50px;
+               border-bottom: 1px dashed black;
+           }
+           #gotocart{
+               margin: 0;
+               padding: 0;
+               font-size: 12px;
+               width: 250px;
+               height: 50px;
+               text-align: center;
+               line-height:50px;
+               #cart{
+                   background: red;
+                   width: 86px;
+                   height: 30px;
+                   border-radius: 5px;
+                   color: white;
+                   border: none;
+                   &:hover{
+                       background: darkred;
+                   }
+               }
+               a{
+                   text-decoration:none;
+                   color:dodgerblue;
+               }
+           }
+        }
+    }
+    .cart_bgimg{
+        position: absolute;
+        top: 28px;
+        left: 832px;
+    }
+}

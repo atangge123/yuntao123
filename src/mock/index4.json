@@ -1,0 +1,18 @@
+{
+	"res_code":1,
+	"res_error":"",
+	"res_body":{
+			"list":
+				[
+				 {"imgb":"/yuntao/src/images/p11.jpg","title":"江口醇 酒 大酱风度 52° 680ml","price":"999.00"},
+				 {"imgb":"/yuntao/src/images/p12.jpg","title":"江口醇 诸葛酿酒 智者天下 52° 500ml ","price":"138.00"},
+				 {"imgb":"/yuntao/src/images/p13.jpg","title":"江口醇 诸葛酿酒 锦囊豪品 52° 500ml","price":"88.00"},
+				 {"imgb":"/yuntao/src/images/p14.jpg","title":"江口醇 酒 红顶 52° 500ml","price":"48.00"},
+				 {"imgb":"/yuntao/src/images/p15.jpg","title":"红茅烧忆品红42度 1瓶","price":"176.00"},
+				 {"imgb":"/yuntao/src/images/p16.jpg","title":"内藏老宅三星浓香型白酒 42度 500ml","price":"78.00"},
+				 {"imgb":"/yuntao/src/images/p17.jpg","title":"红茅烧忆品红50度 1瓶","price":"536.00"},
+				 {"imgb":"/yuntao/src/images/p18.jpg","title":"内藏乾源玉露养生酒浓香型白酒 39度 500ml","price":"268.00"}
+				 ]
+
+	}
+}
